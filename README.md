@@ -1,10 +1,10 @@
 ## Ames Housing Price Prediction: Production-Ready ML Pipeline
 
-## 📖 Project Overview
+##  Project Overview
 
 This project implements a robust, end-to-end machine learning pipeline designed to predict residential home prices in Ames, Iowa. Beyond predictive accuracy, the architecture focuses on **Software Engineering best practices** for ML, utilizing Scikit-Learn Pipelines to ensure modularity, reproducibility, and the prevention of data leakage.
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Estimating real estate value is a complex task influenced by dozens of variables. Manual appraisal is often subjective and slow. This project solves this by:
 
@@ -12,7 +12,7 @@ Estimating real estate value is a complex task influenced by dozens of variables
 *   **Automating Feature Engineering**: Transforming raw data into predictive signals (e.g., converting "Year Built" into "House Age").
 *   **Ensuring Pipeline Integrity**: Encapsulating all transformations within a unified `Pipeline` to ensure that preprocessing logic is identical during both training and inference.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The repository is structured following **Modular Programming** principles to separate concerns:
 
@@ -37,7 +37,7 @@ The system compares three diverse algorithms through `RandomizedSearchCV` to fin
 *   **Performance Metrics**: Models are evaluated using $RMSE$, $MAE$, and $R^2$ to provide a comprehensive view of error distribution.
 *   **XAI (Explainable AI)**: The pipeline extracts and visualizes **Feature Importances**, allowing stakeholders to understand which factors (e.g., Overall Quality, Ground Living Area) most significantly drive property value.
 
-## 🚀 Getting Started
+##  Getting Started
 
 1.  **Install Dependencies**:
     
